@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upload Photo - K2Tube</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img class="logo" src="assets/images/k2tubelogo64px.png">
+                <h1><a href="index.html">K2Tube</a></h1>
+                <nav>
+                    <ul>
+                        <li><a class="menu" href="uploadvideo.html">Upload Vídeo</a></li>
+                        <li><a class="menu" href="uploadphoto.html">Upload Foto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <hr>
+        <main class="photos">
+            <h2>Adicione uma <strong>Foto</strong> e uma <strong>Descrição</strong> para ela.</h2>
+            <label class="picture" for="picture__input" tabindex="0">
+                <span class="picture__image"></span>
+            </label>
+            <input type="file" accept="image/*" id="picture__input">
+            
+            <textarea name="description" cols="54" rows="3" id="description" placeholder="description"></textarea>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>Todos os direitos reservados. &copy; 2024 E.M.A. Productions</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

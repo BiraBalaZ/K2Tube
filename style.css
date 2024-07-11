@@ -1,0 +1,109 @@
+header .header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+header li {
+    margin-top: 7px;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    
+    transition: 200ms ease-in-out;
+}
+
+header li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}
+
+main {
+    max-width: 650px;
+    margin: 0 auto;
+    /* background-color: black; */
+    /* margin: 350px; */
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+}
+
+.photos {
+    text-align: center;
+}
+
+main strong {
+    text-decoration: underline;
+}
+
+.homepage {
+    text-align: center;
+}
+
+#picture__input {
+    display: none;
+}
+
+.picture {
+    margin: auto;
+    width: 400px;
+    /* height: 400px; */
+    aspect-ratio: 16/9;
+    background-color: #ddd;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: currentcolor 3px dashed;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: 300ms ease-in-out, background 300ms ease-in-out;
+}
+
+.picture:hover {
+    color: #777;
+    background-color: #ccc;
+}
+
+.picture:active {
+    color: #333;
+    background-color: #aaa;
+}
+
+.picture:focus {
+    outline: 2px solid gray;
+}
+
+.foto {
+    max-width: 100%;
+}
+
+textarea {
+    margin-top: 15px;
+    resize: none
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: lightgray;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
